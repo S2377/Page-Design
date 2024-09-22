@@ -1,0 +1,33 @@
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .hero-image img {
+    width: 1000px;
+    height: 1000px;
+  }
+  
+  .hero-text h1 {
+    font-family: 'serif';
+    font-size: 4rem;
+  }
+    
+  .hero-text p {
+    font-family: 'serif';
+    font-size: 3rem;
+  }
+  .hero-text{
+    padding-left: 100px;
+  }
+  
+  .contact-btn {
+    margin-top: 20px;
+    background-color:black !important;
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

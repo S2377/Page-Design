@@ -1,0 +1,38 @@
+.cta-section {
+    background-color: black;
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cta-title {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 9999px; /* This creates a fully rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .cta-title {
+      font-size: 10rem;
+    }
+  }

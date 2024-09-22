@@ -1,0 +1,35 @@
+.header {
+  background-color: black !important; 
+    color: #fff;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 300px;
+    align-items: center;
+  }
+
+  .description{
+    color: white;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 15vh;
+    max-width: 70%;
+    max-height: 50%;
+    line-height: 1;
+
+  }
+  
+  .contact-btn {
+    background-color: white !important;
+    color: black !important;
+    padding: 10px 20px;
+    border: white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
